@@ -1,19 +1,11 @@
 # Toxicity_attack
-aper https://aclanthology.org/2023.findings-emnlp.155/
+Paper https://aclanthology.org/2023.findings-emnlp.155/
 
 # No Offence, Bert - I Insult Only Humans!
 
 This repository contains the code for the paper ["No offence, Bert - I insult only humans! Multiple addressees sentence-level attack on toxicity detection neural networks"](https://aclanthology.org/2023.findings-emnlp.155/), presented at the EMNLP 2023 conference. This paper introduces a novel, highly effective attack on state-of-the-art toxicity detection models, including **Google Perspective API and OpenAI Moderation API**.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Experiments](#experiments)
-- [Results](#results)
-- [Contributors](#contributors)
-- [License](#license)
+
 
 ## Introduction
 
@@ -25,11 +17,20 @@ Toxicity detection systems are widely used in social media platforms to moderate
 - **Comprehensive Attack Methods:** Includes both word-based and sentence-based attack strategies.
 - **Defense Mechanism:** Provides an adversarial training defense to improve model resilience.
 
-## Installation
+### Word-Based Attack in English on Perspective API and OpenAI Moderation API
 
-Clone the repository and install the required dependencies:
-```bash
-git clone https://github.com/yourusername/toxicity-detection-attack.git
-cd toxicity-detection-attack
-pip install -r requirements.txt
+| n words | OpenAI S | OpenAI L | Per. API |
+|---------|----------|----------|----------|
+| 1       | 0.643    | 0.946    | 0.899    |
+| ...     | ...      | ...      | ...      |
+| 10      | 0.421    | 0.847    | 0.846    |
+| 11      | 0.381    | 0.705    | 0.852    |
+| 12      | 0.427    | 0.74     | 0.852    |
+| 13      | 0.453    | 0.761    | 0.852    |
+| 14      | 0.426    | 0.665    | 0.853    |
+| 15      | 0.362    | 0.681    | 0.853    |
+| 16      | 0.265    | 0.716    | 0.853    |
+
+*Table 2: Word-based attack in English on Perspective API and OpenAI Moderation API. Per. - perspective, S - stable, L - latest.*
+
 
