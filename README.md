@@ -1,6 +1,3 @@
-# Toxicity_attack
-Paper https://aclanthology.org/2023.findings-emnlp.155/
-
 # No Offence, Bert - I Insult Only Humans!
 
 This repository contains the code for the paper ["No offence, Bert - I insult only humans! Multiple addressees sentence-level attack on toxicity detection neural networks"](https://aclanthology.org/2023.findings-emnlp.155/), presented at the EMNLP 2023 conference. This paper introduces a novel, highly effective attack on state-of-the-art toxicity detection models, including **Google Perspective API and OpenAI Moderation API**.
