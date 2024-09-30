@@ -29,5 +29,28 @@ Toxicity detection systems are widely used in social media platforms to moderate
 | 16      | 0.265    | 0.716    | 0.853    |
 
 *Table 2: Word-based attack in English on Perspective API and OpenAI Moderation API. Per. - perspective, S - stable, L - latest.*
+## Citation
 
+If you use this work, please cite it as:
+
+```bibtex
+@inproceedings{berezin-etal-2023-offence,
+    title = "No offence, Bert - {I} insult only humans! Multilingual sentence-level attack on toxicity detection networks",
+    author = "Berezin, Sergey  and
+      Farahbakhsh, Reza  and
+      Crespi, Noel",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.155",
+    doi = "10.18653/v1/2023.findings-emnlp.155",
+    pages = "2362--2369",
+    abstract = "We introduce a simple yet efficient sentence-level attack on black-box toxicity detector models. By adding several positive words or sentences to the end of a hateful message, we are able to change the prediction of a neural network and pass the toxicity detection system check. This approach is shown to be working on seven languages from three different language families. We also describe the defence mechanism against the aforementioned attack and discuss its limitations.",
+}
+```
 
